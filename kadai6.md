@@ -7,3 +7,21 @@ imagesc(ORG); colormap(gray); colorbar;
 
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai6-1.jpg)  
 図1 白黒濃淡画像
+
+IMG = ORG>128; % 128による二値化  
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
+
+によって，128以上を１，それ以下を０として，128による二値化した画像を図２に示す．  
+
+![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai6-2.jpg)  
+図2 128による二値化した画像
+
+IMG = dither(ORG); % ディザ法による二値化
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示
+
+によって，ディザ法による二値化した画像を図３に示す．
+
+![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai6-2.jpg)  
+図2 ディザ法による二値化した画像　　
+
+図２と図3により，128による２値化とディザ法による二値化の結果は異なっていることを確認できた．
