@@ -3,10 +3,10 @@ ORG=imread('Lenna.png'); % 原画像の入力
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示  
 
-によって，原画像を読み込みグレースケール画像へ変換した，結果を図1に示す．  
+によって，カラー画像を白黒濃淡画像へ変換し，結果を図1に示す．  
 
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai2-1.jpg)  
-図1 グレースケール画像
+図1 白黒濃淡画像
 
 ２階調は1bitで2段階である．　
 
