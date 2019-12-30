@@ -25,7 +25,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
-1/4サンプリングの結果を図３に示す．
+1/4サンプリングの結果を図３に示す.  
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai1-3.jpg)  
 図3 1/4サンプリング
 
