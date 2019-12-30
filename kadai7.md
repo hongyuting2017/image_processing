@@ -18,8 +18,8 @@ ORG = double(ORG);　　
 mn = min(ORG(:)); % 濃度値の最小値を算出  
 mx = max(ORG(:)); % 濃度値の最大値を算出  
 ORG = (ORG-mn)/(mx-mn)*255;  
-imagesc(ORG); colormap(gray); colorbar; %画像の表示
-　
+imagesc(ORG); colormap(gray); colorbar; %画像の表示  
+
 によって、画素のダイナミックレンジを0~255に拡大する．結果を図3に示す．  
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai7-3.jpg)  
 図3 ダイナミックレンジを拡大した画像  
