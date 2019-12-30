@@ -30,7 +30,7 @@ IMG = edge(ORG,'canny'); % エッジ抽出（キャニー法）
 imagesc(IMG); colormap('gray'); colorbar;% 画像表示  
 
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai10-4.jpg)  
-図３ キャニー法によるエッジ抽出
+図4 キャニー法によるエッジ抽出
 
 
 
