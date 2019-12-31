@@ -14,7 +14,7 @@ imhist(ORG);
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai7-1.jpg)  
 図2 濃度ヒストグラム　　
 
-ORG = double(ORG);　　
+ORG = double(ORG);  
 mn = min(ORG(:)); % 濃度値の最小値を算出  
 mx = max(ORG(:)); % 濃度値の最大値を算出  
 ORG = (ORG-mn)/(mx-mn)*255;  
