@@ -11,7 +11,7 @@ imagesc(ORG); colormap(gray); colorbar;
 imhist(ORG);  
 によって，濃度ヒストグラムを表示し，結果を図2に示す．
 
-![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai7-1.jpg)  
+![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai7-2.jpg)  
 図2 濃度ヒストグラム　　
 
 ORG = double(ORG);  
