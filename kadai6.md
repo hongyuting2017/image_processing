@@ -1,5 +1,5 @@
 # 課題６　画像の二値化　　
-ORG=imread('Lenna.png');  
+ORG=imread('603.jpg');  
 ORG= rgb2gray(ORG);  
 imagesc(ORG); colormap(gray); colorbar;  
 
