@@ -1,5 +1,5 @@
 # 課題１０　画像のエッジ抽出 
-ORG=imread('Lenna.png');  
+ORG=imread('603.jpg');  
 ORG= rgb2gray(ORG);  
 imagesc(ORG); colormap(gray); colorbar;  
 
