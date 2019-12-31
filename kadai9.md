@@ -1,5 +1,5 @@
 # 課題９　メディアンフィルタと先鋭化
-ORG=imread('Lenna.png');  
+ORG=imread('603.jpg');  
 ORG= rgb2gray(ORG);  
 imagesc(ORG); colormap(gray); colorbar;  
 
