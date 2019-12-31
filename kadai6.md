@@ -22,6 +22,6 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 によって，ディザ法による二値化した画像を図３に示す．
 
 ![原画像](https://github.com/hongyuting2017/image_processing/blob/master/image/kadai6-2.jpg)  
-図2 ディザ法による二値化した画像　　
+図3 ディザ法による二値化した画像　　
 
 図２と図3により，128による２値化とディザ法による二値化の結果は異なっていることを確認できた．
